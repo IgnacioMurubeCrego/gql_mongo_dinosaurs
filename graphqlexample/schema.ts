@@ -8,7 +8,7 @@ export const typeDefs = `#graphql
 
   type Query{
     getDinosaurs: [Dinosaur!]!
-    getDinoFamilie(type:String!): [Dinosaur!]!
+    getDinoFamily(type:String!): [Dinosaur!]!
     getDinosaur(id:ID!): Dinosaur
 
   }
